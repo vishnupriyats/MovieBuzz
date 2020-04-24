@@ -44,23 +44,23 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(https://i.pinimg.com/236x/1f/bb/b7/1fbbb7c0bb729ffbb6a32384215e6c1d.jpg) 
+  background-image: url(https://wallpapercave.com/wp/wp5015381.jpg) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(https://i.pinimg.com/236x/94/38/a4/9438a4c73acc29d0ec0f062848ba3dfb.jpg);
-  animation-delay: 10s; 
+  background-image: url(https://wallpapercave.com/wp/wp2289075.jpg);
+  animation-delay: 8s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(https://i.pinimg.com/236x/46/6f/c3/466fc31f6ab1eca0731c618af053e4b1.jpg);
-  animation-delay: 20s; 
+  background-image: url(https://www.filmibeat.com/ph-big/2019/02/super-deluxe_155083792400.jpg);
+  animation-delay: 14s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(https://i.pinimg.com/236x/e8/17/32/e81732af074d5678b9cbdb0d5363b017.jpg);
-  animation-delay: 30s; 
+  background-image: url(https://wallpapercave.com/wp/wp5980273.jpg);
+  animation-delay: 20s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(https://i.pinimg.com/236x/1a/a1/4b/1aa14b59cced43132579cc44064de029.jpg);
-  animation-delay: 40s; 
+  background-image: url(https://wallpapercave.com/wp/wp5429995.jpg);
+  animation-delay: 26s; 
 }
 
 @keyframes imageAnimation { 
