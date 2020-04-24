@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+<div class="container">
+	<h1 style="text-align: center; margin:50px auto">Edit <%= movie.title %></h1>
+	<div style="width: 30%; margin: 20px auto;">
+		<form method="POST" action="/movies/<%= movie._id %>?_method=PUT" >
+			<div class="form-group">
+				<input class="form-control" type="text" name="movie[title]" value="<%= movie.title %>" required>
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="movie[image]" value="<%= movie.image %>" required>
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="movie[director]" value="<%= movie.director%>" required>
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="movie[actors]" value="<%= movie.actors %>" required>
+				<small class="form-text text-muted">Enter the actors name separated by comma.</small>
+			</div>
+			<div class="form-group">
+				<textarea  class="form-control" name="movie[description]" placeholder="description" row = 6 required><%= movie.description %></textarea>
+			</div>
+			
+			<div class="form-group">
+				<button class="btn btn-lg btn-primary btn-block">submit</button>
+			</div>
+		</form>
+		<a href="/movies">Go back</a>
+	</div>
+</div>
+<%- include("../partials/footer") %>

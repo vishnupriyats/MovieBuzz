@@ -1,0 +1,24 @@
+.card-text {
+	
+	padding: 10px;
+}
+
+.card h4 {
+	
+	margin: 10px;
+}
+
+nav {
+	
+	margin-bottom: 10px;
+}
+
+.delete {
+	
+	display: inline;
+}
+
+.checked {
+    
+	color: orange;
+}

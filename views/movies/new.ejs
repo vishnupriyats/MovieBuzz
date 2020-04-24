@@ -1,0 +1,35 @@
+
+<%- include("../partials/header") %>
+<div class="container">
+	<h1 style="text-align: center; margin:50px auto"> create a new movie</h1>
+	<div style="width: 30%; margin: 20px auto;">
+		<form action="/movies" method="POST">
+			<div class="form-group">
+				<input class="form-control" type="text" name="title" placeholder="title" required>
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="image" placeholder="image url" required>
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="director" placeholder="director name" required>
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="actors" placeholder="actors name" required>
+				<small class="form-text text-muted">Enter the actors name separated by comma.</small>
+			</div>
+			<div class="form-group">
+				<textarea  class="form-control" name="description" placeholder="description" row = 6 required></textarea>
+			</div>
+			
+			<div class="form-group">
+				<button class="btn btn-lg btn-primary btn-block">submit</button>
+			</div>
+		</form>
+		<a href="/movies">Go back</a>
+	</div>
+	
+
+		
+
+</div>
+<%- include("../partials/footer") %>
