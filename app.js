@@ -29,7 +29,7 @@ app.use(flash());
 // seedDB();//seeding the db
 
 // PASSPORT CONFIGURATION
-app.use(require("express-session")({
+app.use(require("cookie-session")({
     secret: "This is a website",
     resave: false,
     saveUninitialized: false
