@@ -20,7 +20,7 @@ var movieRoutes    = require("./routes/movies"),
 	indexRoutes    = require("./routes/index");
 
 
-mongoose.connect("mongodb://localhost/cinema_blog",{ useNewUrlParser: true , useUnifiedTopology: true,useFindAndModify: false });
+mongoose.connect("mongodb+srv://moviedb:password!1@cluster0-keozz.mongodb.net/test?retryWrites=true&w=majority",{ useNewUrlParser: true ,useCreateIndex:true, useUnifiedTopology: true,useFindAndModify: false });
 app.set("view engine","ejs");
 app.use(express.static(__dirname+"/public"));
 app.use(bodyParser.urlencoded({extended: true}));
